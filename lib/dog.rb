@@ -1,9 +1,14 @@
 # Your code goes here!
 class Dog
-    fido = Dog.new
-    fido.name = "Fido"
-    fido.bark = "Woof"
+    def name=(dog_name)
+    @name = dog_name
+    end
 
-    fido.name
-    fido.bark
+    def name 
+      @name
+    end
+
+    def bark
+      puts "woof!"
+    end
 end
