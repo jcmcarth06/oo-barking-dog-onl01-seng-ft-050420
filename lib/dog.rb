@@ -4,6 +4,6 @@ class Dog
     fido.name = "Fido"
     fido.bark = "Woof"
 
-    fido.name 
+    fido.name
     fido.bark
 end
